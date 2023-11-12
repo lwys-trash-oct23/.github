@@ -12,6 +12,6 @@ and it already works pretty well, it's just that I want to try building the OS m
 and I can't think of how to deal with it. However, @Hassan-kareem [told me](https://github.com/lwys-trash-oct23/local_manifests/issues/1)
 that [`vknecht/msm8916-mainline-linux`](https://github.com/vknecht/msm8916-mainline-linux/tree/aosp/v6.6-msm8916) is a thing, and I'm
 thinking about it right now.
-Kindly use the lineage-18.1 local manifest for now.
+Currently 18.1 has again become my primary aim, kindly use the lineage-18.1 local manifest for now.
 
 TWRP building has also been implemented for 18.1, but the resulting image is too large for a5ltechn so I can't test it.
