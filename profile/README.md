@@ -8,6 +8,10 @@ This right now, for organization purposes, will host artifacts of my attempt to 
 Well, srkndenis has [made a build of 18.1 already back in 2021](https://mega.nz/folder/7s0CnQpL#OpPDOEsGA5APizajXRZ32A/folder/bp0kxYCQ)
 and it already works pretty well, it's just that I want to try building the OS myself so that I can get security updates.
 
-Work has been done for 20.0 bring-up before, but I pretty much have given up because the kernel is too old for A12+
-and I can't think of how to deal with it. Maybe if I'm insane I can make an Android port of msm8916-mainline.
+20.0 bring-up has been worked on as well, but I am currently bottlenecked by the ancient kernel which A12+ won't like
+and I can't think of how to deal with it. However, @Hassan-kareem [told me](https://github.com/lwys-trash-oct23/local_manifests/issues/1)
+that [`vknecht/msm8916-mainline-linux`](https://github.com/vknecht/msm8916-mainline-linux/tree/aosp/v6.6-msm8916) is a thing, and I'm
+thinking about it right now.
 Kindly use the lineage-18.1 local manifest for now.
+
+TWRP building has also been implemented for 18.1, but the resulting image is too large for a5ltechn so I can't test it.
